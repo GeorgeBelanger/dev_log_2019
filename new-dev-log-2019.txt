@@ -1,0 +1,10 @@
+spent 1:30 figuring out that I never selected EC2 as the trusted source when originally creating my role and frigged around with users, groups and other things including installing the aws cli. I now know a little more about access and IAM roles, groups and users. 
+
+Now finding out I have a to have a codedeploy role and a ec2 role. OKay!
+
+Deployments are failing due to: The overall deployment failed because 
+1. too many individual instances failed deployment, 
+2. too few healthy instances are available for deployment,
+or 3. some instances in your deployment group are experiencing problems.
+
+Makes me think that this is because I don't have a load balancer. I want to create a load balancer but have to set up a certificate for that to happen. ACM manager time. 
