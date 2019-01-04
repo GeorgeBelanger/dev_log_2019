@@ -8,3 +8,24 @@ Deployments are failing due to: The overall deployment failed because
 or 3. some instances in your deployment group are experiencing problems.
 
 Makes me think that this is because I don't have a load balancer. I want to create a load balancer but have to set up a certificate for that to happen. ACM manager time. 
+Had to use a classic load balancer because I had to mess around with godaddy DNS to get a ACM certificate which is needed for a non classic load balancer.
+Got the load balancer working.
+The code deploy is failing because of instance health. 
+
+01/03/2019 Thursday 6:30pm
+  - Overall goal is to have all my websites hosted on aws
+    - Where we left off last night was that I finally got the roles, users, and groups set in IAM as well as in EC2 & CodeDeploy  
+    - The deploy is failing because of instance health.
+      - "To resolve the issue, review and correct any errors in the the health check configuration for the load balancer."
+      - It seems that it is failing when it gets to the blockTraffic step, which makes me think that the load balancer is to blame
+    - The issue is that it might be that codedeployagent is not installed on my instance, which would make sense.
+      - Time to install putty
+      - I have changed the EC2 keys to ppk format to use with putty and am about to start a session
+      - We are connected! Now I need to install codedeploy agent on the instance using this guide (https://docs.aws.amazon.com/codedeploy/latest/userguide/codedeploy-agent-operations-install-linux.html). Done!
+    - The deployment got to download bundle and succeeded, but now is throwing an error about an appspec (http://docs.aws.amazon.com/codedeploy/latest/userguide/reference-appspec-file.html)
+      - Created and committed an appspec.yml copied from here (https://docs.aws.amazon.com/codedeploy/latest/userguide/reference-appspec-file-example.html)
+      - Thought I was smart and changed the version to 0.1 and got this error (The deployment failed because an invalid version value (0.1) was entered in the application specification file. Make sure your AppSpec file specifies "0.0" as the version, and then try again :p)
+      - Atleast I get a chance to change the load balancer timeouts which currently takes... 30 seconds nvm or so I thought. Something takes 5 minutes for block traffic to resolve. I have to change the healthy threshold from 10 to 2
+        === Leaving off here, having to edit my appspec.yml to run npm build and npm start (https://hub.packtpub.com/deploy-nodejs-apps-aws-code-deploy/)
+  - Next goal will be to delete root access permissions and update the healfly app with s3 only ones. (Hopefully before I push this!)
+    --- Worked with relative ease, added s3fullaccess to user, group, role and to a custom policy. 
