@@ -35,3 +35,20 @@ The code deploy is failing because of instance health.
   8:25pm 
       - About to dig into how to create an appspec.yml. I know that I want the server to run npm install, (install npm as well), npm build and then npm start when called. 
         - Installed node & npm v 4.4.5 on my EC2 Instance using this guide (https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-up-node-on-ec2-instance.html)
+        - Copied the appspec.yml and scripts folder (but added npm build after npm install) into my app from (https://github.com/brettstack/node-starter)
+          - We get to afterInstall and failed with this message(  npm: command not found. )
+          
+            - Found out that node and npm are installed at /home/ec2-user/.nvm/versions/node/v4.4.5/bin/npm . Using the commands found in this article to shift the link to ... Not sure where I should link it to or where I should install npm to. 
+              - I didn't install it globally because I didn't use sudo, which would have installed it globally. Wouldn't have minded doing that but now I see this article and realize that it could lead to errors down the road (https://givan.se/do-not-sudo-npm/)
+              - Packages can run arbitrary scripts, which makes sudoing a package manager command as safe as a chainsaw haircut. – @izs, npm core
+              - Apparently this was a good thing and now I just have to install with nvm in the correct directory, which to me looks like either /usr/bin/node or /usr/local/bin/npm.
+                - I have time tonight to try both. So I will and maybe I'll break it but OKay!
+                - Running these 4 commands (sudo ln -s /home/ec2-user/.nvm/versions/node/v4.4.5/bin/node /usr/bin/node
+                  sudo ln -s /home/ec2-user/.nvm/versions/node/v4.4.5/lib/node /usr/bin/node
+                  sudo ln -s /home/ec2-user/.nvm/versions/node/v4.4.5/bin/npm /usr/bin/npm
+                  sudo ln -s /home/ec2-user/.nvm/versions/node/v4.4.5/bin/node-waf /usr/bin/node-waf)
+                - It seems to be failing at the after install again. I'm now suspicious of the #!/bin/bash   cd /var/api  part if npm works... Isn;t failing on time so I won't know until next time.. Time to ponder what I could have done wrong.. 
+              - NPM Works now!!! But now my script timed out: (Script at specified location: scripts/npm-install.sh failed to complete in 300 seconds)
+                === The logs are saying that node 4.4.5 is too old -_-
+        - All these changed on my instances infrastructure makes me think about version control for it. Looking at using Ec2Audit as described in this article(http://offbytwo.com/2012/08/03/audit-ec2-infra-with-scm.html)
+
