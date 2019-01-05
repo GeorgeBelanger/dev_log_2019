@@ -29,3 +29,9 @@ The code deploy is failing because of instance health.
         === Leaving off here, having to edit my appspec.yml to run npm build and npm start (https://hub.packtpub.com/deploy-nodejs-apps-aws-code-deploy/)
   - Next goal will be to delete root access permissions and update the healfly app with s3 only ones. (Hopefully before I push this!)
     --- Worked with relative ease, added s3fullaccess to user, group, role and to a custom policy. 
+01/04/2019 8:00pm
+  - Again overall goal is to have all my websites hosted on AWS and then if I have time figure out what lambda is about
+  - But first I must do my weekly timesheets!
+  8:25pm 
+      - About to dig into how to create an appspec.yml. I know that I want the server to run npm install, (install npm as well), npm build and then npm start when called. 
+        - Installed node & npm v 4.4.5 on my EC2 Instance using this guide (https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-up-node-on-ec2-instance.html)
