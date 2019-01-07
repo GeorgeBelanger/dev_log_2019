@@ -57,14 +57,33 @@ The code deploy is failing because of instance health.
     - Failed deployment with exit code 1 "react-scripts: command not found" 
     - I also notice that it is still using node 4.4.5 and I assume that's because of the all the linking commands I ran. I think this is causing the issue.  
       - Was going to run the linking commands again but instead just ran npm i -g npm and nvm install 8.9.0 in the root folder
-      - Next I ran npm i -g react-scripts after running npm ls react showed that I didn't have react scripts installed. 
-        - Now it doesn't show it still but when I run npm ls react-scripts it shows it... and npm start works now.
-    - Next error was that I didn't have a browsers list in my package.json so I added it and pushed it and deployed it.
+      - Next I ran npm i -g react-scripts 
+      - running 'npm ls react' showed that I didn't have react scripts installed. 
+        - The output when running 'npm ls react' should be 
+        calculator-app@0.1.0 /Users/ka_stewart/devmtn:notes/React.js/calculator-app
+        ├── react@16.0.0
+        └─┬ react-scripts@1.0.14
+          └─┬ react-dev-utils@4.1.0
+            └─┬ react-error-overlay@2.0.2
+              └── react@16.0.0  deduped
+          - But I get empty when I run in /home/ec2-user and I only get this one line when I run in var/api (including when I run in node_modules) where my project is installed.
+            [ec2-user@ip-172-31-39-77 api]$ npm ls react
+            api@1.0.0 /var/api
+            └── react@16.7.0
+          - Now pondering if I should put my project in a different folder; I put it in the base folder because I thought it would get more access to commands and such. But also when I run npm ls react in my user folder I get (empty)
+      - Now it doesn't show it still but when I run npm ls react-scripts it shows it... and npm start works now.
+    - Next error was that I didn't have a browsers list in my package.json so I added it and pushed it and deployed it. (https://github.com/browserslist/browserslist#queries)
+      - The list I used was
+        "browserslist": [
+          "last 1 version",
+          "> 1%",
+          "IE 10"
+        ]
     - It keeps going back to node 4.4.5 when I run the deployment
       - aaaaaaand were doing a new instance. 
         - To see if I can do it from scratch without looking at my prior notes, here's how I think it goes:
           - 1. you link it to the code deploy in console v
-          - 2. you link it to the load balancer x
+          - 2. you link it to the load balancer (wrong the load balancer is added to the de)
           - 3. you get the keys for the putty connection x
           - 4. you install code deploy agent (I'm doing everything in the root folder this time, except for installing codedeploy) v
           - 5. You install nvm and npm v
@@ -72,6 +91,27 @@ The code deploy is failing because of instance health.
       - Now getting the npm: command not found error. Trying to do npm i -g npm instead of doing those links.
       - Npm still not found. 
       - Running the link commands again but this time with sudo ln -s /var/api/node_modules/.bin/react-scripts /usr/bin/react-scripts
-        - sudo rm -r /usr/bin/node to remove it if you screw up the version like I just did
-      - Running the deployment, and omfg react scripts worked!! But it launched the server to localhost:3000 and then it timed out after 60 seconds. Would like to just leave it there but literally I all I had to do today was link react scripts and guess what, it took 2 hours.
+        - sudo rm -r /usr/bin/node to remove it if you screw up the version 
+      - Running the deployment, and react-scripts command works and it launched the server to localhost:3000 
+        - Then it times out after 60 seconds with this error: 
+          "ScriptTimedOut: Script at specified location: scripts/npm-start.sh failed to complete in 60 seconds" 
+        - In the terminal: 
+          LifecycleEvent - ApplicationStart
+          Script - scripts/npm-start.sh
+          [stdout]
+          [stdout]> api@1.0.0 start /var/api
+          [stdout]> react-scripts start
+          [stdout]
+          [stdout]Starting the development server...
+          [stdout]
+          [stdout]Compiled successfully!
+          [stdout]
+          [stdout]You can now view api in the browser.
+          [stdout]
+          [stdout] Local: http://localhost:3000/
+          [stdout] On Your Network: http://172.31.39.77:3000/
+          [stdout]
+          [stdout]Note that the development build is not optimized.
+          [stdout]To create a production build, use npm run build.
+          [stdout]
 
