@@ -128,5 +128,8 @@ The code deploy is failing because of instance health.
     - We are live after adding a new custom TCP rule with port range 3000 and accessible from everywhere (0.0.0.0/0) to the security group of the instance, so the site is now available at the publicDNS ip port 3000
       http://ec2-18-191-187-105.us-east-2.compute.amazonaws.com:3000/
       And it is fast, but I forgot I was messing with the transitions on the slider when I pushed up the recent commits!
+    - We are able to have it running without my terminal open by installing pm2 with npm install pm2 -g and then in var/api running: 
+      pm2 start npm --name reactscriptsstart -- start
+    
       
 
