@@ -40,14 +40,13 @@ The code deploy is failing because of instance health.
             - Found out that node and npm are installed at /home/ec2-user/.nvm/versions/node/v4.4.5/bin/npm . Using the commands found in this article to shift the link to ... Not sure where I should link it to or where I should install npm to. 
               - I didn't install it globally because I didn't use sudo, which would have installed it globally. Wouldn't have minded doing that but now I see this article and realize that it could lead to errors down the road (https://givan.se/do-not-sudo-npm/)
               - Packages can run arbitrary scripts, which makes sudoing a package manager command as safe as a chainsaw haircut. – @izs, npm core
-              - Apparently this was a good thing and now I just have to install with nvm in the correct directory, which to me looks like either /usr/bin/node or /usr/local/bin/npm.
-                - I have time tonight to try both. So I will and maybe I'll break it but OKay!
+              - Now I just have to make a symbolic link to node, npm, node-waf, (react-scripts would find out later) in the correct directory, which to me looks like either /usr/bin/node or /usr/local/bin/npm. (https://stackoverflow.com/questions/4976658/on-ec2-sudo-node-command-not-found-but-node-without-sudo-is-ok)
                 - Running these 4 commands (sudo ln -s /home/ec2-user/.nvm/versions/node/v4.4.5/bin/node /usr/bin/node
                   sudo ln -s /home/ec2-user/.nvm/versions/node/v4.4.5/lib/node /usr/bin/node
                   sudo ln -s /home/ec2-user/.nvm/versions/node/v4.4.5/bin/npm /usr/bin/npm
                   sudo ln -s /home/ec2-user/.nvm/versions/node/v4.4.5/bin/node-waf /usr/bin/node-waf)
                 - It seems to be failing at the after install again. I'm now suspicious of the #!/bin/bash   cd /var/api  part if npm works... Isn;t failing on time so I won't know until next time.. Time to ponder what I could have done wrong.. 
-              - NPM Works now!!! But now my script timed out: (Script at specified location: scripts/npm-install.sh failed to complete in 300 seconds)
+              --- NPM Works now!!! But now my script timed out: (Script at specified location: scripts/npm-install.sh failed to complete in 300 seconds)
                 === The logs are saying that node 4.4.5 is too old -_-
         - All these changed on my instances infrastructure makes me think about version control for it. Looking at using Ec2Audit as described in this article(http://offbytwo.com/2012/08/03/audit-ec2-infra-with-scm.html)
 
@@ -114,4 +113,20 @@ The code deploy is failing because of instance health.
           [stdout]Note that the development build is not optimized.
           [stdout]To create a production build, use npm run build.
           [stdout]
+
+1/7/2019 Monday 6:00pm
+  - All I want to do tonight is have the server run to an external ip.
+    - There are a few ways I can do this: 
+      https://zeit.co/examples/create-react-app/
+        - This option sounds like the ultimate: SSR with Serverless. Will look this up and probably will be the end point, but not now. Also where the containers at?
+      https://medium.com/@sgobinda007/setting-up-react-redux-application-for-production-and-hosting-in-aws-ec2-8bbb8bf3c643
+        - This option uses react and redux, but doesn't seem to use react-scripts or create-react-app
+      https://medium.com/@nishankjaintdk/setting-up-a-node-js-app-on-a-linux-ami-on-an-aws-ec2-instance-with-nginx-59cbc1bcc68c
+        --- This seems to be the best option because I only have to follow steps 7-9
+      https://www.npmjs.com/package/codedeploy-scripts
+        - This is a package that replaces all scripts for lifecycle events in the appspec file with one file called deployment.js. Sounds easy but doesn't have a guide with it and I don't think it will be that common/useful for me in the future.
+    - We are live after adding a new custom TCP rule with port range 3000 and accessible from everywhere (0.0.0.0/0) to the security group of the instance, so the site is now available at the publicDNS ip port 3000
+      http://ec2-18-191-187-105.us-east-2.compute.amazonaws.com:3000/
+      And it is fast, but I forgot I was messing with the transitions on the slider when I pushed up the recent commits!
+      
 
