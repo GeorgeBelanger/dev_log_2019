@@ -131,5 +131,14 @@ The code deploy is failing because of instance health.
     - We are able to have it running without my terminal open by installing pm2 with npm install pm2 -g and then in var/api running: 
       pm2 start npm --name reactscriptsstart -- start
     
-      
-
+1/8/19 Tuesday 6:30 pm
+  - Hungry
+  - Today going to follow the rest of this guide (https://medium.com/@nishankjaintdk/setting-up-a-node-js-app-on-a-linux-ami-on-an-aws-ec2-instance-with-nginx-59cbc1bcc68c)
+    - Questions I have off the bat: do I have to run another instance to host another website or just run them on another port? 
+      - To test this I added a rule allowing access to port 3001 in security groups for the instance
+      - Now I have to code deploy and npm install my sperry farms app
+        - I'm just going to install git on my server and clone it that way >:|
+        - Installed git but was unable to clone inside of root folder or /var and not sure why. cloned at home/ec2-user .
+          - Have to change the port that the app runs on: going to make a branch for the linux distro and pull from there
+          - Made branch and changed port to 3001 as well as updated banners on the order page.
+          --- It is hosted and working on port 3001 ! Maybe I should have finished the guide and figured out how xginx works first? 
