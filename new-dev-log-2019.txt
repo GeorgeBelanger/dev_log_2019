@@ -142,3 +142,8 @@ The code deploy is failing because of instance health.
           - Have to change the port that the app runs on: going to make a branch for the linux distro and pull from there
           - Made branch and changed port to 3001 as well as updated banners on the order page.
           --- It is hosted and working on port 3001 ! Maybe I should have finished the guide and figured out how xginx works first? 
+    - I ran pm2 startup which gave me this script which I ran then I ran pm2 save after. sudo env PATH=$PATH:/home/ec2-user/.nvm/versions/node/v9.3.0/bin /home/ec2-user/.nvm/versions/node/v9.3.0/lib/node_modules/pm2/bin/pm2 startup systemd -u ec2-user --hp /home/ec2-user
+    - And now when I reboot the server the apps start automatically. 
+    - I installed nginx, added port 80, and then set the location in the config file (all in the guide.) 
+    - Now I have to figure out how to get my other website served without port 3001.
+    
