@@ -146,7 +146,9 @@
     - I ran pm2 startup which gave me this script which I ran then I ran pm2 save after. `sudo env PATH=$PATH:/home/ec2-user/.nvm/versions/node/v9.3.0/bin /home/ec2-user/.nvm/versions/node/v9.3.0/lib/node_modules/pm2/bin/pm2 startup systemd -u ec2-user --hp /home/ec2-user`
     - And now when I reboot the server the apps start automatically. 
     - I installed nginx, added port 80, and then set the location in the config file (all in the guide.) 
+      - **Pairbnb now works at the public dns without port:3000 extension**
     - Now I have to figure out how to get my other website served without port 3001.
+    - Port 3001 no longer working and I'm not sure why, it is running in pm2 and allowed in security groups. 
     
 ## 1/9/19 Wednesday 7:45 pm
   - Had a crappy day at work
