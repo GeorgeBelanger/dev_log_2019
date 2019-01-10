@@ -25,10 +25,11 @@
       - Created and committed an `appspec.yml` copied from here [https://docs.aws.amazon.com/codedeploy/latest/userguide/reference-appspec-file-example.html](https://docs.aws.amazon.com/codedeploy/latest/userguide/reference-appspec-file-example.html)
       - Thought I was smart and changed the version to 0.1 and got this error (The deployment failed because an invalid version value (0.1) was entered in the application specification file. Make sure your AppSpec file specifies "0.0" as the version, and then try again :p)
       - Atleast I get a chance to change the load balancer timeouts which currently takes... 30 seconds nvm or so I thought. Something takes 5 minutes for block traffic to resolve. I have to change the healthy threshold from 10 to 2
-        === Leaving off here, having to edit my `appspec.yml` to run npm build and npm start [https://hub.packtpub.com/deploy-nodejs-apps-aws-code-deploy/](https://hub.packtpub.com/deploy-nodejs-apps-aws-code-deploy/)
+        == Leaving off here, having to edit my `appspec.yml` to run npm build and npm start [https://hub.packtpub.com/deploy-nodejs-apps-aws-code-deploy/](https://hub.packtpub.com/deploy-nodejs-apps-aws-code-deploy/)
   - Next goal will be to delete root access permissions and update the healfly app with s3 only ones. (Hopefully before I push this!)
-    --- Worked with relative ease, added s3fullaccess to user, group, role and to a custom policy. 
-01/04/2019 8:00pm
+    -- Worked with relative ease, added s3fullaccess to user, group, role and to a custom policy. 
+
+## 01/04/2019 Friday 8:00pm
   - Again overall goal is to have all my websites hosted on AWS and then if I have time figure out what lambda is about
   - But first I must do my weekly timesheets!
   8:25pm 
@@ -40,17 +41,18 @@
               - I didn't install it globally because I didn't use sudo, which would have installed it globally. Wouldn't have minded doing that but now I see this article and realize that it could lead to errors down the road [https://givan.se/do-not-sudo-npm/](https://givan.se/do-not-sudo-npm/)
               > Packages can run arbitrary scripts, which makes sudoing a package manager command as safe as a chainsaw haircut. – @izs, npm core
               - Now I just have to make a symbolic link to node, npm, node-waf, *(react-scripts would find out later)* in the correct directory, which to me looks like either `/usr/bin/node` or `/usr/local/bin/npm` [https://stackoverflow.com/questions/4976658/on-ec2-sudo-node-command-not-found-but-node-without-sudo-is-ok](https://stackoverflow.com/questions/4976658/on-ec2-sudo-node-command-not-found-but-node-without-sudo-is-ok)
-                - Running these 4 commands (`sudo ln -s /home/ec2-user/.nvm/versions/node/v4.4.5/bin/node /usr/bin/node`
-                  `sudo ln -s /home/ec2-user/.nvm/versions/node/v4.4.5/lib/node /usr/bin/node`
-                  `sudo ln -s /home/ec2-user/.nvm/versions/node/v4.4.5/bin/npm /usr/bin/npm`
-                  `sudo ln -s /home/ec2-user/.nvm/versions/node/v4.4.5/bin/node-waf /usr/bin/node-waf`
-                  in the future I did `sudo ln -s /var/api/node_modules/.bin/react-scripts /usr/bin/react-scripts`)
+                - Running these 4 commands (
+                  - `sudo ln -s /home/ec2-user/.nvm/versions/node/v4.4.5/bin/node /usr/bin/node`
+                  - `sudo ln -s /home/ec2-user/.nvm/versions/node/v4.4.5/lib/node /usr/bin/node`
+                  - `sudo ln -s /home/ec2-user/.nvm/versions/node/v4.4.5/bin/npm /usr/bin/npm`
+                  - `sudo ln -s /home/ec2-user/.nvm/versions/node/v4.4.5/bin/node-waf /usr/bin/node-waf`
+                  - in the future I did `sudo ln -s /var/api/node_modules/.bin/react-scripts /usr/bin/react-scripts`)
                 - It seems to be failing at the after install again. I'm now suspicious of the `#!/bin/bash   cd /var/api`  part if npm works... Isn;t failing on time so I won't know until next time.. Time to ponder what I could have done wrong.. 
               -- **NPM Works now!!!** But now my script timed out: (Script at specified location: scripts/npm-install.sh failed to complete in 300 seconds)
                 == The logs are saying that node 4.4.5 is too old -_-
         - All these changed on my instances infrastructure makes me think about version control for it. Looking at using Ec2Audit as described in this article [http://offbytwo.com/2012/08/03/audit-ec2-infra-with-scm.html](http://offbytwo.com/2012/08/03/audit-ec2-infra-with-scm.html)
 
-01/05/2019 Saturday 1:15 pm
+## 01/05/2019 Saturday 1:15 pm
   - Goal again for the fourth day is to get all my sites hosted on ec2 and then learn about either next JS or lambda, or about using my own hardware.
     - First thing is to update node using nvm install 8.9.0 (`--reinstall-packages-from=4.4.5` didn't work)
     - Failed deployment with `exit code 1 "react-scripts: command not found"` 
