@@ -147,3 +147,10 @@ The code deploy is failing because of instance health.
     - I installed nginx, added port 80, and then set the location in the config file (all in the guide.) 
     - Now I have to figure out how to get my other website served without port 3001.
     
+1/8/19 Tuesday Wednesday 7:45 pm
+  - Had a crappy day at work
+  - Felt bad for myself and so I decided to relax and induldge in twitch instead of programming for 2 hours.... Also because my work is somewhat ambigious right now
+  - I'll atleast define where I'm at:
+    - I have to get sperryfarms.org to map to the public dns of my instance
+    - I also have to get the same for pairbnb?
+      - List of nice to haves: https, ssr, serverless, 1 file to load, this article looks good (https://dev.to/saigowthamr/server-side-rendering-react-apps-using-serverless-jfe)
