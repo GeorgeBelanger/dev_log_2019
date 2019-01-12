@@ -167,3 +167,9 @@
     - I already want to markup my dev log with ticks and bolding now that I see the syntax to do so on github
       - Here are the most important: --- gives a line, ## = h2, *word* = italics, **word** = bold, `word` = code, ```javascript word``` = js code, [text](site) = link, ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1") = image
     - And now I don't haha just the code and the headings.  
+
+## 1/11/19 Friday 2:45 pm
+  - Couple things that could be worked on today
+    - Either I start in on the readme's (priority)
+    - Or I figure out why port 3001 isn't working (not important now)
+    - Also was listening to a video talking about how the projects on your portfolio might not be 100% and I agree I should definitely work on pairbnb a little more. 
