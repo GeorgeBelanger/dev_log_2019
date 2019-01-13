@@ -122,7 +122,7 @@
         - This option sounds like the ultimate: SSR with Serverless. Will look this up and probably will be the end point, but not now. Also where the containers at?
      [https://medium.com/@sgobinda007/setting-up-react-redux-application-for-production-and-hosting-in-aws-ec2-8bbb8bf3c643](https://medium.com/@sgobinda007/setting-up-react-redux-application-for-production-and-hosting-in-aws-ec2-8bbb8bf3c643)
         - This option uses react and redux, but doesn't seem to use react-scripts or create-react-app
-      [**https://medium.com/@nishankjaintdk/setting-up-a-node-js-app-on-a-linux-ami-on-an-aws-ec2-instance-with-nginx-59cbc1bcc68c**](https://medium.com/@nishankjaintdk/setting-up-a-node-js-app-on-a-linux-ami-on-an-aws-ec2-instance-with-nginx-59cbc1bcc68c)
+      [https://medium.com/@nishankjaintdk/setting-up-a-node-js-app-on-a-linux-ami-on-an-aws-ec2-instance-with-nginx-59cbc1bcc68c](https://medium.com/@nishankjaintdk/setting-up-a-node-js-app-on-a-linux-ami-on-an-aws-ec2-instance-with-nginx-59cbc1bcc68c)
         -- **This seems to be the best option because I only have to follow steps 7-9** aaaand this is the guide I should have been following all along. Could have skipped codedeploy completely and just installed git on the server. 
       [https://www.npmjs.com/package/codedeploy-scripts](https://www.npmjs.com/package/codedeploy-scripts)
         - This is a package that replaces all scripts for lifecycle events in the appspec file with one file called deployment.js. Sounds easy but doesn't have a guide with it and I don't think it will be that common/useful for me in the future.
@@ -173,3 +173,23 @@
     - Either I start in on the readme's (priority)
     - Or I figure out why port 3001 isn't working (not important now)
     - Also was listening to a video talking about how the projects on your portfolio might not be 100% and I agree I should definitely work on pairbnb a little more. 
+
+## 1/12/19 Saturday 
+  - An idea I have for my portfolio site is to have the screenshots turn to scrolling gifs on hover
+  - Today I have been working on using Icons in my readme... sort of a distraction from the important work but when i use icons in all my readmes they should look good.
+    -- **After looking for a while I found [https://konpa.github.io/devicon/](https://konpa.github.io/devicon/) which is exactly what I'm looking for: same size developer icons. They are only missing lambda and graphql.** 
+    -- [https://svgporn.com/](https://svgporn.com/) also looks very good and has way more icons, only available for download however you can't embed them
+
+## 1/13/19 Sunday 11:30am Quill Books
+  - Lots of hype up to this day because the past week which was spent working at home was not good and now I am at the bookstore. 
+  - Today going to work on just the readme for Node PairBNB
+    - Around commit 46 I'm thinking I should use a blank repo to do the readme editing because I have to make a commit everytime I want to see a change. 
+      - I can reset the commits by doing `--hard head~x` where x is the number of commits I want to roll back, so I will do that when I am done and then paste in the finished readme. 
+  - Finished the readme! Actually couple things I should add: 
+    - The HTML5 link to the original website
+    - That I run off the main.js in the public folder
+    - That I have to update the transition
+    - That I'm still working on getting the fade transition
+    - That I couldn't figure out the import into the app and instead just had the defered tags in index.html
+    - Link to the github in the about section
+  - Good Day overall! 
