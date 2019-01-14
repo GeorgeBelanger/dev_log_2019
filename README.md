@@ -193,3 +193,8 @@
     - That I couldn't figure out the import into the app and instead just had the defered tags in index.html
     - Link to the github in the about section
   - Good Day overall! 
+
+## 1/14/19 Monday 3:30pm Glickman Library
+  - First up let's take care of the backlog from yesterday
+  - After that I hope to finish the readme for sperry farms. 
+    - Finished it except for the chicken page and the gif there. But good!
