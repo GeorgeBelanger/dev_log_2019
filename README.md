@@ -198,3 +198,9 @@
   - First up let's take care of the backlog from yesterday
   - After that I hope to finish the readme for sperry farms. 
     - Finished it except for the chicken page and the gif there. But good!
+
+## 1/15/19 Tuesday 3:00pm Quill
+  - Going to do the readme for healfly today.
+    -  Got a decent amount done, but still have to get into the nitty gritty of authentication, search and others. But decent day. 
+    -  Also fixed a broken link:
+      - Had to change the default email in `app\mailers\application_mailer.rb` to healflymail@gmail.com and turn on 'allow less secure apps' at [https://www.google.com/settings/security/lesssecureapps](https://www.google.com/settings/security/lesssecureapps) and also go to [https://accounts.google.com/b/0/DisplayUnlockCaptcha](https://accounts.google.com/b/0/DisplayUnlockCaptcha) to allow unlock capchas for 10 minutes. 
