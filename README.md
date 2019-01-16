@@ -204,3 +204,6 @@
     -  Got a decent amount done, but still have to get into the nitty gritty of authentication, search and others. But decent day. 
     -  Also fixed a broken link:
       - Had to change the default email in `app\mailers\application_mailer.rb` to healflymail@gmail.com and turn on 'allow less secure apps' at [https://www.google.com/settings/security/lesssecureapps](https://www.google.com/settings/security/lesssecureapps) and also go to [https://accounts.google.com/b/0/DisplayUnlockCaptcha](https://accounts.google.com/b/0/DisplayUnlockCaptcha) to allow unlock capchas for 10 minutes. 
+
+## 1/16/19 Wednesday 3:00pm Quill
+  - Finished the healfly readme. What a biotch lol still some glaring bugs but it's ok. 
