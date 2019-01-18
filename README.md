@@ -207,3 +207,6 @@
 
 ## 1/16/19 Wednesday 3:00pm Quill
   - Finished the healfly readme. What a biotch lol still some glaring bugs but it's ok. 
+
+## 1/17/19 Thursday 5:30pm home
+  - Didn't do any development, just read on product hunt for 1 hour about differeneces between databases and new products. 
