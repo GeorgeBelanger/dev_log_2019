@@ -210,3 +210,13 @@
 
 ## 1/17/19 Thursday 5:30pm home
   - Didn't do any development, just read on product hunt for 1 hour about differeneces between databases and new products. 
+
+## 1/19/19 Saturday 11:45pm Quill
+  - Going to remake my resume today.
+    - Here is how I want it to look: 
+    <img src ='https://lh3.googleusercontent.com/9pQyuzcPx2sxXzIkgL_nvnnD7V5p-kDyQMrcPLE1e5i2-MM12o8MVI094c7ks71DsxSpK5nDIx-ikqkhHW1us2VE3x7F0Fq1A2STymevgG4uu5zE71FsKrHSY44i4oFnMkD7qw1zUFdWwSu3JA5oWfHF01BEZfUyHmtDEMZNSOA9LJM5rJVNCSrqohv7Ai81Y97V6EQG2BaM_rwLARwBpEuedUq7jNA66vd8Bij4PY3rfKf3TeUi_WvCF6-28PdgUSD2kX318v4F1Y1AjI2HBsARtx7oRy3f3owCWHne6VmdWXSMreebiyrszx6D_V_XrOOZMW20-sulOHUIYZKRiHxkSyxkteMJjPArW3FL5on_3DexHgDsVVfROsBwgrN86e4MJM_44ZptjtahtnRc1eLw9HbZvKU8cP4MLZdl1lNrdGFEh7ZdxpTXJOLawV9IzOh43cdPf4OxWwHNtiekxUpLs59WdpguJbqn6RXy3Juz0PCFmKY85vV3XCjpQ92mjykA8tY5YBgVJDiWf1h1Q7LsB321B2INxqNjjznQYjn268AimntIzO2OMJ6TKWApIlLqI_kKl9RwWATrAfB5waa5k4_xsC8OckahWbDgFPLCLhA2jyQ0eNsRuJA7S9qVtJItN13NwMrbLvCUNkdkGkU6vg=w950-h753-no'>
+      - Not sure if the easiest way to do this is on google docs but that is where I want to do it. 
+      - Looking for alternatives but all the templates they have aren't the quarter sections I am looking for, and a lot ignore the F chart of attention.
+      - Another issue is that my old resume was not responsive when you viewed it on a phone. Not finding anything about making a word document or pdf responsive. 
+        -- **It's all about those tables baby. I think I can get everything the way I like if I get the icons.**
+  - Also created .gitattribute files in my repos to change the language type of the repo. And updated sperry farms a bit. 
