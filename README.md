@@ -231,4 +231,26 @@
     - Finding an email of someone that works there and sending them a reason why I want to work there
     - Sending someone that works there a message on linked in on what I'd be a good fit
   - It's also important that I do atleast 15 minutes of research on the company/product before I apply. 
-    - I will first apply to jobs that are local because I think I have the highest chance of getting those all else equal. 
+    - I will first apply to jobs that are local because I think I have the highest chance of getting those all else equal. Should be able to get 5 today. 
+      - Hall Internet marketing:
+        - PHP and wordpress developer. No experience in either but there are a few elements on thier website that has the same effect as the ones on sperry farms
+          - The counter
+          - The typed.js
+          - The mockups that I will have on my official portfolio (The focus this week(I should have an online kanban board or scrum thing.)))
+        - Cool thing about these guys is that they have tools such as google analytics evaluator, website templates and dashboards. and the woo commerce accolade. 
+        -- Sent an email to tims@hallme.com with my resume and a blerb. Felt kind of pushy but hey that's how it works.
+      - Prosearch UX/UI Position with not much additional info
+        - It said on Dice that I applied for this position on 11-27-2018 but reached out to Kathleen parker from pro serach to see if we can make something happen. 
+      - Applied for a position at robert half
+      - Could apply for a job at cashstar but feels bad
+  - I used `sudo nano about.js` to edit the cringy hoped you liked the transition part at the beginning. It worked without having to update pm2 which is awesome.
+  - Seems that I also have to use `sudo git` whenever I need to do a git command
+
+
+## 1/22/19 Tuesday 5:00pm Quill
+  - Going to work on PairBNB tonight because it is kind of a BS app at this point. It need to have atleast a few more pages. Only have 1 hour
+    - I want to check out React spring tonight as well. It's between this, SVGator, react-transition-group, and Anime.js for my animation needs.
+      - When I look at react-spring it looks moderately easy... and it's got ryan florance and dan abramov talking about it soooo
+    - When I get back into the backend stuff, definitely looking at gitlab. 
+    - The fade in doesn't work too well. It's not in sync and has a decent load time of 2 seconds
+  - Basically just looked at react-spring examples tonight
