@@ -254,3 +254,34 @@
     - When I get back into the backend stuff, definitely looking at gitlab. 
     - The fade in doesn't work too well. It's not in sync and has a decent load time of 2 seconds
   - Basically just looked at react-spring examples tonight
+
+
+## 1/23/19 Wednesday 5:45pm Home
+  - Going to put a listing view page on pairbnb tonight and put some react-spring animation on it. 
+    - Got my first spring animation on my page but,
+      - Had to put everything in my app.js file
+        - In order to have a global store, everyone is saying to use redux. I would use useContext instead of redux right? 
+          - There are a few options I have for passing this state down:
+            - Use traditional redux
+              - This is going to be overkill but perhaps the most useful going forward
+            - Use react hooks
+              - I think that this might be the most appropriate because it is presumably the easiest, smallest and most forward moving. The only issue is that redux is alot more commercially viable/used and should be learned. 
+            - Use redux-starter-kit
+              - This is going to be better than the former starting out but not as easy/forward leaning as the mid.
+        - I think this would be a good issue to do a version with each one to see the process and pros/cons.  
+          - Going to start with redux-starter-kit first
+            - Got sucked into trying to pass props down through react-router and couldn't get it to go. 
+            - [https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367](https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367)
+            - [https://stackoverflow.com/questions/41108701/react-router-share-state-between-routes-without-redux](https://stackoverflow.com/questions/41108701/react-router-share-state-between-routes-without-redux)
+            - [https://github.com/reduxjs/redux-starter-kit](https://github.com/reduxjs/redux-starter-kit)
+      - Had to revert the version to allow for 'template'
+        - Nothing in the documentation about template and it seems that there is only one example using it so I just removed this example completely from my file. 
+      
+```
+remote: This repository moved. Please use the new location:
+remote:   https://github.com/GeorgeBelanger/PairBNB.git
+remote:
+remote: Create a pull request for 'react-spring-animations' on GitHub by visiting:
+remote:      https://github.com/GeorgeBelanger/PairBNB/pull/new/react-spring-animations
+remote:
+```
