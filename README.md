@@ -290,3 +290,24 @@ remote:
   - Going to try and set up animations with hooks before i do overkill redux
     - It was easy to set up local state using useState. I had to update the version of react and react-dom in `package.json` to "next"
   - Just kinda said F it I felt tired cuz I ate like crap today and took a nap and then never came back. 
+
+## 1/25/19 Friday 2:40pm quill
+  - There are a few things I have on the agenda for the next few days, probably saturday:
+    - Get a virtual assistant to apply for junior jobs for me in austin and omaha and even seattle
+      - Set up a new gmail account for the applications
+      - Create a default email to send to people that he finds on hunter
+      - Come up with guidelines of what jobs to apply to
+      - If it asks for my SSN then stop the application
+      - Put all the jobs he applied to in a spreadsheet with name of employer, date, address email was sent to
+    - Get my taxes done
+    - Create an automated investing account
+    - Move my 401K into an index fund
+    - Donate 1.8k
+    - Unsub from these spam job emails
+    - Apply to tyler tech and send an email to HR@tylertechnologies.com
+  - But today we are going to work on PairBNB listing page
+    - I am first going to find a design that I like, then take steps toward implementing it and then and only then will I add additional features such as flights
+    - Aaaaand now I think I am going to scrap any improvements on pairbnb.... 
+      - I have to add navlink to the listings, but it breaks it when I try to wrap the article in a `<navLink>` element because of the CSS > and : and so on. But now I'm thinking if I make a navlink within the article that has padding that reaches to the edges of the article that could work. 
+      - Continuted to mess around with it until I realized it wasn't going to happen: I made the link to the airbnb listing on the title a link to the landing page. 
+      - Fixed the slider transition as well. 
