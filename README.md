@@ -285,3 +285,8 @@ remote: Create a pull request for 'react-spring-animations' on GitHub by visitin
 remote:      https://github.com/GeorgeBelanger/PairBNB/pull/new/react-spring-animations
 remote:
 ```
+
+## 1/24/19 thursday 3:00pm home
+  - Going to try and set up animations with hooks before i do overkill redux
+    - It was easy to set up local state using useState. I had to update the version of react and react-dom in `package.json` to "next"
+  - Just kinda said F it I felt tired cuz I ate like crap today and took a nap and then never came back. 
