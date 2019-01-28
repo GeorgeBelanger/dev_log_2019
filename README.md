@@ -331,3 +331,11 @@ remote:
     - I am applying to places on my own now. Boston seems to have more positions open than in Austin and it's closer, thus I have a greater chance of hire. 
       - Applied to cyber coders Newington NH Jr. Full Stack role
       - Applied to sas SQL programmer boston imetris
+
+## 1/28/19 Monday 4:15 Quill
+  - Applying to jobs today, working on the new portfolio site tomorrow. I think I am going to leave pairbnb the way it is. 
+    - Applied to SQL Programmer II at Southworth International Group on indeed
+      - Sent an email to bmcnamara@southworthproducts.com
+    - Applied to web developer position at redfin soultions through indeed
+      - Sent a badass email to jobs@redfinsolutions.com
+    
