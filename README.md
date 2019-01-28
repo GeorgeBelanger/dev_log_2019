@@ -338,4 +338,11 @@ remote:
       - Sent an email to bmcnamara@southworthproducts.com
     - Applied to web developer position at redfin soultions through indeed
       - Sent a badass email to jobs@redfinsolutions.com
-    
+    - Applied for web developer at brickells through indeed
+      - Sent an email to support@brickell
+      - Makes me think I should use google analytics. I have vague experience with paid ads. 
+    - Applied to junior web developer at iBec creative through indeed
+      - Sent an email
+    - Applied to compunell, alexander tech group, andiamo, through 1 click on linkedin. *blackhole*
+    - Applied to CyberCoders in Portsmouth NH
+      - Emailed Mike cordano about the position. 
