@@ -1,0 +1,21 @@
+Questions to ask each startup I apply to:
+  - From article [https://angel.co/blog/30-questions-to-ask-before-joining-a-startup](https://angel.co/blog/30-questions-to-ask-before-joining-a-startup)
+    - “What is the salary range for this role?”
+    - “Do you have product-market fit?” 
+    - "What is your current growth rate?” 
+    - “What is your runway?” 
+    - “What percent of the company do these shares represent?” 
+    - “Does this role contribute to higher-level decisions?” 
+    - “What are the founders' backgrounds?”
+    - “What are the backgrounds of the people on your team?” 
+    - “What kind of people—who are otherwise successful—don't work out here?”
+    - “Do team members have structured 1-on-1s?”  
+    - “What are company social events like?” 
+    - “Did the founders take vacations this year?”
+    - “What is the policy on remote work?”
+    - “What progression do you envision for someone in this role?”
+
+  - Questions I want to ask 
+    - "Do you have an education stipend or reimburse for conferences etc?"
+    - "Do you host meetups?"
+    - "Is there any sort of afterwork training/learning etc"

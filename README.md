@@ -293,21 +293,41 @@ remote:
 
 ## 1/25/19 Friday 2:40pm quill
   - There are a few things I have on the agenda for the next few days, probably saturday:
+    - Get my taxes done x
+    - Donate 1.8k x
+    - Unsub from these spam job emails x
+    - Look for rooms in portland month-to-month x
+    - Create an automated investing account 
+      - Applied for an account on Etrade
+    - Move my 401K into an index fund
+      - All I remember about the guy who managed my account is that he's from edward jones and I can't find anything in my email from edward jones
+      - Sent Tom an email
+    - Apply to tyler tech and send an email to HR@tylertechnologies.com
     - Get a virtual assistant to apply for junior jobs for me in austin and omaha and even seattle
       - Set up a new gmail account for the applications
       - Create a default email to send to people that he finds on hunter
       - Come up with guidelines of what jobs to apply to
       - If it asks for my SSN then stop the application
       - Put all the jobs he applied to in a spreadsheet with name of employer, date, address email was sent to
-    - Get my taxes done
-    - Create an automated investing account
-    - Move my 401K into an index fund
-    - Donate 1.8k
-    - Unsub from these spam job emails
-    - Apply to tyler tech and send an email to HR@tylertechnologies.com
   - But today we are going to work on PairBNB listing page
     - I am first going to find a design that I like, then take steps toward implementing it and then and only then will I add additional features such as flights
     - Aaaaand now I think I am going to scrap any improvements on pairbnb.... 
       - I have to add navlink to the listings, but it breaks it when I try to wrap the article in a `<navLink>` element because of the CSS > and : and so on. But now I'm thinking if I make a navlink within the article that has padding that reaches to the edges of the article that could work. 
       - Continuted to mess around with it until I realized it wasn't going to happen: I made the link to the airbnb listing on the title a link to the landing page. 
       - Fixed the slider transition as well. 
+
+## 1/27/19 Sunday 10:20 quill
+  - Ok today I can either find out how to hire a virtual assistant or I can work on getting my landing page done.
+    - I have been putting off the landing page and I know it. I have however found some awesome CSS libraries that I am exited to use. 
+      -  I want to spend a bunch of time watching red Stapler videoes but I don't think that the library is the place to do it. 
+      - [Awesome CSS Libraries](https://www.youtube.com/watch?v=r1ZtMCr0Pr4)
+      - [Stunning CSS Effects (I really like the dematerializing one)](https://www.youtube.com/watch?v=bjUoQbSJDJs)
+      - [Animate.css](https://daneden.github.io/animate.css/)
+      - Next video I want to watch is on vs code extensions and I also want to try out fish shell
+    - The virtual assistant I really want to get going by monday... but I think that I want to take it slow at first just until he gets the hang of it. 
+      - I'm going to read in my virtual freedom book. 
+    - Decided against doing this beacuse a guy said that he built a bot to apply to jobs and it got like 5 percent response rate. He advocated networking since only 6 percent of applications are referrals but 30 percent of hires are referrals. 
+      - Still wonder how well it would work if he sent an email to someone from the company after each application like I will.
+    - I am applying to places on my own now. Boston seems to have more positions open than in Austin and it's closer, thus I have a greater chance of hire. 
+      - Applied to cyber coders Newington NH Jr. Full Stack role
+      - Applied to sas SQL programmer boston imetris
