@@ -346,3 +346,8 @@ remote:
     - Applied to compunell, alexander tech group, andiamo, through 1 click on linkedin. *blackhole*
     - Applied to CyberCoders in Portsmouth NH
       - Emailed Mike cordano about the position. 
+    - Applied at workbridge for junior front end position in boston.
+      - Sent an email to Lauren
+    - applied for junior full stack position in portsmouth through cybercoders
+     
+    
