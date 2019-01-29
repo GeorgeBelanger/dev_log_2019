@@ -365,3 +365,9 @@ remote:
   - Need to decide what to use for the backend on my portfolio. It's already come down to either Next.JS or Gatsby.
     - I just found a nice tutorial on SSR vs CSR that uses Next.Js so I think that would be a good read, and potentially a good place to start.
     - I've also heard that gatsby is better suited for static sites and Next is overkill. 
+      - gatsby has 19 job postings and next has 40. Nothing great if I was looking for a job. 
+    - Still looking at netlify vs heroku and figuring out what a CMS is... 
+      - Now I get it. A place where non-technicals(sorry) can change the content of the site.
+  - It's looking like I'm going to use Gatsby due to the last image in this article [https://www.vojtechruzicka.com/gatsby-migration/](https://www.vojtechruzicka.com/gatsby-migration/)
+    - So there are 6 jobs for netlify and netlify CMS while there are 6,000 for wordpress so not sure what benefit could outweigh that if I was going to use a CMS.
+  - Starting the SSR vs CSR now.... 
