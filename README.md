@@ -368,6 +368,11 @@ remote:
       - gatsby has 19 job postings and next has 40. Nothing great if I was looking for a job. 
     - Still looking at netlify vs heroku and figuring out what a CMS is... 
       - Now I get it. A place where non-technicals(sorry) can change the content of the site.
-  - It's looking like I'm going to use Gatsby due to the last image in this article [https://www.vojtechruzicka.com/gatsby-migration/](https://www.vojtechruzicka.com/gatsby-migration/)
     - So there are 6 jobs for netlify and netlify CMS while there are 6,000 for wordpress so not sure what benefit could outweigh that if I was going to use a CMS.
   - Starting the SSR vs CSR now.... 
+    - renderToString doesn't work in place of render because render takes a container as an argument and renderToString only takes an element, however hydrate takes a container and is supposed to be used with renderToString. I need to find out where renderToString is used. 
+  - There is no point in me upgrading my CRA(create-react-app) to SSR and Next or Gatsby come stock with SSR. I understand mostly what it is however. 
+  - It's looking like I'm going to use Gatsby due to the last image in this article [https://www.vojtechruzicka.com/gatsby-migration/](https://www.vojtechruzicka.com/gatsby-migration/)
+    - Although I would also like to try the next-serverless setup described in this article [https://statsbot.co/blog/a-crash-course-on-serverless-side-rendering-with-reactjs-nextjs-and-aws-lambda/](https://statsbot.co/blog/a-crash-course-on-serverless-side-rendering-with-reactjs-nextjs-and-aws-lambda/)
+    - I just made my first gatsby app and it's working past where it was the last time I tried it. The hot reloading is awesome and it's very cool it has a database built right in. 
+      - Gotta figure out how to do the SSR things although I think you just do build and then serve. It also has the blurry image suspense thing working and code splitting. v nice.
