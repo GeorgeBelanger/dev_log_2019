@@ -349,5 +349,19 @@ remote:
     - Applied at workbridge for junior front end position in boston.
       - Sent an email to Lauren
     - applied for junior full stack position in portsmouth through cybercoders
-     
-    
+  - Noticed that Mike cordaro manages a lot of positions that I could fit into.
+  - The best method for applying to jobs on Monday is to filter by posted within the last week and then have the term "junior developer" for my various locations.
+
+## 1/29/19 Tuesday 1:30pm Quill
+  - Going to start in on the portfolio site today
+    - Going to view that github repo that had a lot of great portfolios on it: [https://github.com/iRaul/awesome-portfolios](https://github.com/iRaul/awesome-portfolios)
+      - I see from a lot of portfolios that everyone is using canvas and webGL(and three.js) to make thier websites look like GCI if you will. 
+    - [http://cihadturhan.com/](http://cihadturhan.com/) might be the best portfolio I've seen. The works section is absolutely amazing I see a lot of these mouse parallax designs but his works one is the best I've seen and what I want to do with my projects.  
+    - I also liked the background effect here [https://mamboleoo.be/](https://mamboleoo.be/)
+    - 3D dragging is also a feature I'd like to have. Again I liked cihad's contact page
+    - [http://samsy.ninja/](http://samsy.ninja/) is amazing as well. The portfolio is just ok but man the content is crazy. Using AR and webGL.
+      - He linked to [https://www.stevenmengin.com/](https://www.stevenmengin.com/) where I really like a lot of things about his portfolio. 
+    - [http://luruke.com/](http://luruke.com/) Is awesome and fun. Not applicable but wow
+  - Need to decide what to use for the backend on my portfolio. It's already come down to either Next.JS or Gatsby.
+    - I just found a nice tutorial on SSR vs CSR that uses Next.Js so I think that would be a good read, and potentially a good place to start.
+    - I've also heard that gatsby is better suited for static sites and Next is overkill. 
