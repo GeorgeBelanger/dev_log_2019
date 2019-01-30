@@ -362,6 +362,10 @@ remote:
     - [http://samsy.ninja/](http://samsy.ninja/) is amazing as well. The portfolio is just ok but man the content is crazy. Using AR and webGL.
       - He linked to [https://www.stevenmengin.com/](https://www.stevenmengin.com/) where I really like a lot of things about his portfolio. 
     - [http://luruke.com/](http://luruke.com/) Is awesome and fun. Not applicable but wow
+    - [https://fishnation.de/#home](https://fishnation.de/#home) intro effect would be amazing if it did react logo and such
+    - [http://dnevozhai.com/](http://dnevozhai.com/) Blurr and focus based on mouse parallax. EVERYONE USES MOUSE PARALLAX 
+    - I like the gifs to move without hover, and then a popup on hover
+    - [http://bellbros.com/](http://bellbros.com/) a split between a good and evil person would be sick. 
   - Need to decide what to use for the backend on my portfolio. It's already come down to either Next.JS or Gatsby.
     - I just found a nice tutorial on SSR vs CSR that uses Next.Js so I think that would be a good read, and potentially a good place to start.
     - I've also heard that gatsby is better suited for static sites and Next is overkill. 
@@ -376,3 +380,17 @@ remote:
     - Although I would also like to try the next-serverless setup described in this article [https://statsbot.co/blog/a-crash-course-on-serverless-side-rendering-with-reactjs-nextjs-and-aws-lambda/](https://statsbot.co/blog/a-crash-course-on-serverless-side-rendering-with-reactjs-nextjs-and-aws-lambda/)
     - I just made my first gatsby app and it's working past where it was the last time I tried it. The hot reloading is awesome and it's very cool it has a database built right in. 
       - Gotta figure out how to do the SSR things although I think you just do build and then serve. It also has the blurry image suspense thing working and code splitting. v nice.
+
+## 1/30/19 Wednesday 4:15pm Quill
+  - The goal for today is to get a working mouse parallax on my gatsby site.
+    -  Starting by putting this react hooks mouse parallax into my site [https://codesandbox.io/embed/r5x34869vq](https://codesandbox.io/embed/r5x34869vq)
+      - Tried to npm install react "next" and it threw an error about eperm renaming, but ran it again and it worked fine. 
+        - Now I get an error that I originally got when I tried gatsby when I run `gatsby develop` - ` 21:11  error  Cannot query field "childImageSharp" on type "File"  graphql/template-strings`
+        - Decided to run `npm i --global gatsby-image@next` which gave me image 2.0.0 while everyone on the forum talking about 2.0.7 being the issue and 2.0.5 being the fix.
+        - And `npm i --global gatsby-source-filesystem@next` and then deleting node_modules before running `npm install`
+          - After all these still getting the eperm issue. I didn't delete cache so I will do that now. I did it by manually deleting .cache folder but I didnt run `npm cache clean --force`
+          -- Deleting the `/.cache` folder worked. 
+        - Getting the `TypeError: Object(...) is not a function` error that is supposedly hooks fault. Trying deleting node_modules and installing  
+         `"react": "16.7.0-alpha.2", "react-dom": "16.7.0-alpha.2",` in `package.json`
+         -- This worked. I am surprised actually. 
+    - The mouse parallax works at 16.7.0-alpha.2 and is pushed onto github. 
