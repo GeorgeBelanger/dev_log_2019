@@ -394,3 +394,38 @@ remote:
          `"react": "16.7.0-alpha.2", "react-dom": "16.7.0-alpha.2",` in `package.json`
          -- This worked. I am surprised actually. 
     - The mouse parallax works at 16.7.0-alpha.2 and is pushed onto github. 
+    - Now I have to decide on what to change next. A few options:
+      - I could chnage the parameters of the parallax so I know how to tweak it
+        - I see that this one has 4 images. I think I am going to start here because it is all encapsulated in 1 or 2 files. 
+          - 
+          ```javascript
+          const calc = (x, y) => [x - window.innerWidth / 2, y - window.innerHeight / 2]
+          const trans2 = (x, y) => `translate3d(${x / 8 + 35}px,${y / 8 - 230}px,0)`
+          const trans4 = (x, y) => `translate3d(${x / 3.5}px,${y / 3.5}px,0)`
+          ```
+          The 'x / 8 + 35" are our starting position and our sensitivity to mouse movement. The lower the first number, the more sensitive and the higher the second number, the farther the starting position.  The calc also sets our starting position. 
+          - There are also some other calculations but I don't really need to tweak them until I get my images up. 
+          - Also note that the image only moves when the mouse is within the container. 
+      - I could change the images
+        - I would have to take a look at how the mouse parallax images generally work
+        - I would also have to edit my pages either by deleting things in browser or actually launching them.
+          - Will probably try in browser for airbnb and in house for sperry farms and pairbnb
+        - Lets start with pairbnb. 
+          - I see from http://cihadturhan.com/ that he uses a different div to transform the location and behavior for each element, but he uses only one image with all the different elements on it.
+          - It seems he does only use one image for the thing but then moves all the different elements to fit into place and the underneath doesn't show because it is covered by the properly placed images on top. 
+            - When I try to edit the transform on an element it completely disappears and doesn't revert when I do because it changes the background url. 
+          - He's using matrix3d as well. This is one of the differences between our parallaxi the others I see now being that his tilts and mine moves and also that mine appears flat, lending to the matrix. 
+          - Looking at [https://codesandbox.io/embed/rj998k4vmm](https://codesandbox.io/embed/rj998k4vmm) I see the difference between rotatexyz, friction, tension and mass.
+            - Interesting to know that useSpring is actually a physics engine.  
+        - Shapes will look like crap if they have any background on them. 
+        - Gotta look into matrix3d... or find the equivalent in react spring. 
+
+# Shopping list :0
+saurkraut
+hummus 
+broccoli
+canned chili
+kale tempeh chickpeas
+nuts n seeds
+3 bean salads
+black bean burgers
