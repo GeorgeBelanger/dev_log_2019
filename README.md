@@ -366,6 +366,7 @@ remote:
     - [http://dnevozhai.com/](http://dnevozhai.com/) Blurr and focus based on mouse parallax. EVERYONE USES MOUSE PARALLAX 
     - I like the gifs to move without hover, and then a popup on hover
     - [http://bellbros.com/](http://bellbros.com/) a split between a good and evil person would be sick. 
+    - [http://brunoimbrizi.com/](http://brunoimbrizi.com/) I like that everything stays in one view with no scrolling. with an animated background for each it would be sick. 
   - Need to decide what to use for the backend on my portfolio. It's already come down to either Next.JS or Gatsby.
     - I just found a nice tutorial on SSR vs CSR that uses Next.Js so I think that would be a good read, and potentially a good place to start.
     - I've also heard that gatsby is better suited for static sites and Next is overkill. 
@@ -419,6 +420,22 @@ remote:
             - Interesting to know that useSpring is actually a physics engine.  
         - Shapes will look like crap if they have any background on them. 
         - Gotta look into matrix3d... or find the equivalent in react spring. 
+
+## 1/31/19 Thursday 4:20 glickman
+  - Working on the mouse parallax again today. I've got 3 options:
+    - Rip the matrix3d setup that he has and implement it on my site
+      - He actually has the repo for his portfolio site on his github... Awesome
+    - Use the react springs demos and create my own
+    - Take the pictures from my websites
+  - Going to do the first of these.
+    - Few options on how to port this content.
+      - Take what I need directly from the file and import it into another file
+      - Get the whole thing running and then delete out the excess
+        - Going with this option, though he's using grunt and I'm not sure how to run it. 
+        - Going to try npm install and then npm start... 
+        - Didn't work. Going to have to install php and run it that way. 
+        - Stopped grunt from running cssmin because it was throwing an error: can't make a subarray of a string.
+        
 
 # Shopping list :0
 saurkraut
