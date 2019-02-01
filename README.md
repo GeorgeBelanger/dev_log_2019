@@ -435,7 +435,12 @@ remote:
         - Going to try npm install and then npm start... 
         - Didn't work. Going to have to install php and run it that way. 
         - Stopped grunt from running cssmin because it was throwing an error: can't make a subarray of a string.
-        
+
+## 2/1/19 Friday 6:10 home
+
+  - Today going to do timesheets
+    - Thought about running php and also just taking the minified js and css files and trying to run it both ways because I will not escape php.
+    - Using this guide [https://www.sitepoint.com/how-to-install-php-on-windows/](https://www.sitepoint.com/how-to-install-php-on-windows/)
 
 # Shopping list :0
 saurkraut
