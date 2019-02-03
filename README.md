@@ -442,6 +442,12 @@ remote:
     - Thought about running php and also just taking the minified js and css files and trying to run it both ways because I will not escape php.
     - Using this guide [https://www.sitepoint.com/how-to-install-php-on-windows/](https://www.sitepoint.com/how-to-install-php-on-windows/)
 
+## 2/2/19 Saturday 9:00am quill
+  - Ran grunt --force to go around the subarray on string warning. I don't think it will have any effect. 
+    - Have until 2/11 to change from heroku to aws. We're still live at port :3001.  
+    -- Got sperryfarms hosted on aws and on the default nginx port.
+    - Have to change pairbnb to port :3001 now but it's not that easy because I can't manually change the react-scripts start port and have to change the environment variable DEFAULT_PORT
+    -- Ended up just sudo nano start.js on my server to hardcode the default port as 3001. 
 # Shopping list :0
 saurkraut
 hummus 
