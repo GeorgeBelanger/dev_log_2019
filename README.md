@@ -366,7 +366,8 @@ remote:
     - [http://dnevozhai.com/](http://dnevozhai.com/) Blurr and focus based on mouse parallax. EVERYONE USES MOUSE PARALLAX 
     - I like the gifs to move without hover, and then a popup on hover
     - [http://bellbros.com/](http://bellbros.com/) a split between a good and evil person would be sick. 
-    - [http://brunoimbrizi.com/](http://brunoimbrizi.com/) I like that everything stays in one view with no scrolling. with an animated background for each it would be sick. 
+    - [http://brunoimbrizi.com/](http://brunoimbrizi.com/) I like that everything stays in one view with no scrolling. with an animated background for each it would be sick.
+    - A 3d spinning image that red stapler had.  
   - Need to decide what to use for the backend on my portfolio. It's already come down to either Next.JS or Gatsby.
     - I just found a nice tutorial on SSR vs CSR that uses Next.Js so I think that would be a good read, and potentially a good place to start.
     - I've also heard that gatsby is better suited for static sites and Next is overkill. 
@@ -448,6 +449,31 @@ remote:
     -- Got sperryfarms hosted on aws and on the default nginx port.
     - Have to change pairbnb to port :3001 now but it's not that easy because I can't manually change the react-scripts start port and have to change the environment variable DEFAULT_PORT
     -- Ended up just sudo nano start.js on my server to hardcode the default port as 3001. 
+
+## 2/4/19 Monday 3:30am Glickman
+  - Made a spreadsheet that describes my job opportunities in terms of pay, life style and career captial here: [https://docs.google.com/spreadsheets/d/1EJ9Ei0MnLuRkMe-jio9JNVhvZItNjCZck7sKHJVSMjc/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1EJ9Ei0MnLuRkMe-jio9JNVhvZItNjCZck7sKHJVSMjc/edit?usp=sharing)
+  - Applying for jobs. 
+    - Applied to robert half job in Westbrook here: [https://recruiting.ultipro.com/NAT1034/JobBoard/1118c9bc-ffe5-707d-5213-6177b1ac4ea7/OpportunityApply/ApplicationSubmitted?applicationId=db8e92f6-420a-452d-888b-ca321f957d9b](https://recruiting.ultipro.com/NAT1034/JobBoard/1118c9bc-ffe5-707d-5213-6177b1ac4ea7/OpportunityApply/ApplicationSubmitted?applicationId=db8e92f6-420a-452d-888b-ca321f957d9b)
+      - Sent an email to ryan okeefe on linkedin
+    - Applied to JR market developer in Austin here: [https://www.roberthalf.com/submit-resume/thank-you/02600-0010756617/Y2l0eT1XaW5kaGFtJnN0YXRlPU1FJnppcD0wNDA2MiZmaXJzdG5hbWU9R2VvcmdlJmxhc3RuYW1lPUJlbGFuZ2VyJmVtYWlsPXJlYWx0b3JnZW9yZ2ViJTQwZ21haWwuY29tJmZpbGVuYW1lPUdlb3JnZStCZWxhbmdlcitSZXN1bWUrMjAxOS5wZGYmZmlkPTIyMTMwMjQxJnJlc3VtZUZlZWRGaWxlSWQ9MjIxMzAyNDYmcmVzdW1lX3VwbG9hZF9vcHRpb249ZmlsZQ%3D%3D](https://www.roberthalf.com/submit-resume/thank-you/02600-0010756617/Y2l0eT1XaW5kaGFtJnN0YXRlPU1FJnppcD0wNDA2MiZmaXJzdG5hbWU9R2VvcmdlJmxhc3RuYW1lPUJlbGFuZ2VyJmVtYWlsPXJlYWx0b3JnZW9yZ2ViJTQwZ21haWwuY29tJmZpbGVuYW1lPUdlb3JnZStCZWxhbmdlcitSZXN1bWUrMjAxOS5wZGYmZmlkPTIyMTMwMjQxJnJlc3VtZUZlZWRGaWxlSWQ9MjIxMzAyNDYmcmVzdW1lX3VwbG9hZF9vcHRpb249ZmlsZQ%3D%3D)
+      - Appears this is a staffing agency. 
+    - Applied to GXP Partners in andover
+      - no addresses. 
+    - Applied to robert half in greenland nh
+      - sent a message to ryan okeefe on linkedin 
+    - Applied to twitter but they asked for 3-5 years exp for a junior role that was also remote... 
+    - Applied to mathmatica policy research here: [https://careers.mathematica-mpr.com/job/cambridge/junior-full-stack-developer/727/8788621](https://careers.mathematica-mpr.com/job/cambridge/junior-full-stack-developer/727/8788621)
+      - Sent an email to rniedzwiecki@mathematica-mpr.com scheduled for 1031 am tuesday
+    - Applied to a place in KL
+    - Applied to tech support in austin [https://www.dice.com/jobs/detail/f9b11bd01be308648a46034836a9879a?src=32&CMPID=AG_ADZ_PD_JS_US_OG_APPC#](https://www.dice.com/jobs/detail/f9b11bd01be308648a46034836a9879a?src=32&CMPID=AG_ADZ_PD_JS_US_OG_APPC#)
+      - Couldnt find any emails
+    - Applied for tech support at big commerce in austin. Had javascript in the descripiton. [https://www.bigcommerce.com/careers/technical-support-representative/?gh_src=ltd1t2m81](https://www.bigcommerce.com/careers/technical-support-representative/?gh_src=ltd1t2m81)
+      - Sent an email to careers@bigcommerce.com
+    - Applied for eclaro in Austin. 
+    - Applied for a support role at expedia for homeaway.
+      - Sent an email to developer at jmartin@homeaway.com scheduled for 8:31am (austin time)tuesday 
+    - Last push. Send an email to someone from each company.  
+  - 700 postings for developer last week in austin. 7 for junior developer. This makes me think that applying for the junior jobs is a fools game because they are going to be much more competitive than all the others. This is what Josh Fluke said. 
 # Shopping list :0
 saurkraut
 hummus 
