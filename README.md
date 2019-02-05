@@ -355,7 +355,7 @@ remote:
 ## 1/29/19 Tuesday 1:30pm Quill
   - Going to start in on the portfolio site today
     - Going to view that github repo that had a lot of great portfolios on it: [https://github.com/iRaul/awesome-portfolios](https://github.com/iRaul/awesome-portfolios)
-      - I see from a lot of portfolios that everyone is using canvas and webGL(and three.js) to make thier websites look like GCI if you will. 
+      - I see from a lot of portfolios that everyone is using canvas and webGL(and three.js) to make thier websites look like CGI if you will. 
     - [http://cihadturhan.com/](http://cihadturhan.com/) might be the best portfolio I've seen. The works section is absolutely amazing I see a lot of these mouse parallax designs but his works one is the best I've seen and what I want to do with my projects.  
     - I also liked the background effect here [https://mamboleoo.be/](https://mamboleoo.be/)
     - 3D dragging is also a feature I'd like to have. Again I liked cihad's contact page
@@ -368,6 +368,14 @@ remote:
     - [http://bellbros.com/](http://bellbros.com/) a split between a good and evil person would be sick. 
     - [http://brunoimbrizi.com/](http://brunoimbrizi.com/) I like that everything stays in one view with no scrolling. with an animated background for each it would be sick.
     - A 3d spinning image that red stapler had.  
+    - I like the 3d floating screenshots used here[http://2014.lorenzobocchi.com/en/design/bertani/](http://2014.lorenzobocchi.com/en/design/bertani/)
+    - Hovering over an image causes a complete change in theme [http://www.keiranlovett.com/](http://www.keiranlovett.com/)
+    - This is noice [http://www.slamdesignz.com/#](http://www.slamdesignz.com/#)
+    - This is hilarious [http://getcoleman.com/](http://getcoleman.com/)
+    - Amazing [http://www.narrowdesign.com/](http://www.narrowdesign.com/)
+    - Really just like the designs but nothing notable about the site [http://rickwaalders.com/](http://rickwaalders.com/)
+    - I like the images show through the letters first and then become the full image [https://humaan.com/](https://humaan.com/)
+    - The background and opening design looks really nice [https://lhbzr.com/](https://lhbzr.com/)
   - Need to decide what to use for the backend on my portfolio. It's already come down to either Next.JS or Gatsby.
     - I just found a nice tutorial on SSR vs CSR that uses Next.Js so I think that would be a good read, and potentially a good place to start.
     - I've also heard that gatsby is better suited for static sites and Next is overkill. 
@@ -474,12 +482,23 @@ remote:
       - Sent an email to developer at jmartin@homeaway.com scheduled for 8:31am (austin time)tuesday 
     - Last push. Send an email to someone from each company.  
   - 700 postings for developer last week in austin. 7 for junior developer. This makes me think that applying for the junior jobs is a fools game because they are going to be much more competitive than all the others. This is what Josh Fluke said. 
-# Shopping list :0
-saurkraut
-hummus 
-broccoli
-canned chili
-kale tempeh chickpeas
-nuts n seeds
-3 bean salads
-black bean burgers
+
+
+## 2/5/19 Tuesday 3:00pm Glickman
+  - Planning on looking at more portfolios today.
+  - Ok I looked through all of them and I definitely need to have a webGL design as the opener to my site. And then perhaps a subtle webgl background but loops until you go to or from the homepage. 
+  - As for where to go from here: three.js is a layer on top of webGL that makes it easier to use. 
+    - Outline for portfolio:
+      - Open with three.JS interactive render
+      - Continue to front-backend dev image split
+      - Have mouse-parallax images for my portfolios
+      - Have a resume or WTF section where it has sideways parallax and me with a suit and thumbs up or me jumping etc
+      - Contact widget
+    - Three.js Render thoughts
+      - I could rip someone elses and throw it in there just for starters, or learn and make my own.
+      - Decided to take [https://codepen.io/Staak/pen/XowdeE](https://codepen.io/Staak/pen/XowdeE) and try to put it on my gatsby site, but there were a few issues.
+        - I had to install the dependcies to package.json and import them (threejs, animejs, and orbitcontrols)
+        - I am currently getting an error that says that you cannot set textcontent of null stemming from this in the constructor: `this.randFromText = document.getElementById('randFrom');`
+          - I think this is because it is unable to load an html element before the div loads? Do I even have it in public index...
+          - Fun fact I tried just putting the html into the public index.html directly because I'm not sure how to do the return/render on it as a class without react and found out that gatsby resets the index.html everytime you start the server(or development)
+          - So I have to figure that out next time. 
