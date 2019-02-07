@@ -502,3 +502,9 @@ remote:
           - I think this is because it is unable to load an html element before the div loads? Do I even have it in public index...
           - Fun fact I tried just putting the html into the public index.html directly because I'm not sure how to do the return/render on it as a class without react and found out that gatsby resets the index.html everytime you start the server(or development)
           - So I have to figure that out next time. 
+
+## 2/6/19 Wednesday 7:30pm home
+  - Going to try hosting a website on AWS lambda. 
+    - Using this video guide [https://www.youtube.com/watch?v=71cd5XerKss&t=131s](https://www.youtube.com/watch?v=71cd5XerKss&t=131s)
+    - This guide shows how to go from a-z with a create-react-app application and serverless, though I'm not sure about the webpack and babel stuff because I thought that was all handled for me [https://medium.com/@YatinBadal/rendering-and-serving-a-create-react-app-from-an-express-server-running-within-a-lambda-function-832576a5167e](https://medium.com/@YatinBadal/rendering-and-serving-a-create-react-app-from-an-express-server-running-within-a-lambda-function-832576a5167e)
+  - Looked at producthunt for a while and found [https://sheety.co/?ref=producthunt](https://sheety.co/?ref=producthunt) Which I can use for my customers CMS
