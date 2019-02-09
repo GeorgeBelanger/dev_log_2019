@@ -508,3 +508,15 @@ remote:
     - Using this video guide [https://www.youtube.com/watch?v=71cd5XerKss&t=131s](https://www.youtube.com/watch?v=71cd5XerKss&t=131s)
     - This guide shows how to go from a-z with a create-react-app application and serverless, though I'm not sure about the webpack and babel stuff because I thought that was all handled for me [https://medium.com/@YatinBadal/rendering-and-serving-a-create-react-app-from-an-express-server-running-within-a-lambda-function-832576a5167e](https://medium.com/@YatinBadal/rendering-and-serving-a-create-react-app-from-an-express-server-running-within-a-lambda-function-832576a5167e)
   - Looked at producthunt for a while and found [https://sheety.co/?ref=producthunt](https://sheety.co/?ref=producthunt) Which I can use for my customers CMS
+
+## 2/7/19 Thursday 4:20pm Quill
+  - Doing a coding test for Maine here group
+  - Did it
+
+## 2/9/19 Saturday 11:20pm home
+  - First off [https://tympanus.net/Development/InfiniteTubes/index2.html](https://tympanus.net/Development/InfiniteTubes/index2.html) with my portfolio screenshots as the particles in the beginning and then if you click and hold you still get the effect is going to be awesome. This is still amazing too https://codepen.io/Staak/pen/XowdeE
+  - Going to start on the lambda integration
+    - Still not sure on weather to use the youtube guide, CRA guide or this guide [https://medium.freecodecamp.org/express-js-and-aws-lambda-a-serverless-love-story-7c77ba0eaa35](https://medium.freecodecamp.org/express-js-and-aws-lambda-a-serverless-love-story-7c77ba0eaa35)
+    - Gotta hop in when I have more time but going to a birthday now
+  - Also learned about [https://templated.co/](https://templated.co/)
+
