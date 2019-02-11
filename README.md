@@ -525,7 +525,12 @@ remote:
 
 ## 2/11/19 Monday 7:30am home
   - Applied to double m resources research sas analyst
+    - sent an email to mindy
   - Applied to here engineering junior front end engineer [https://www.ziprecruiter.com/jobs/here-engineering-a2e2cd79/junior-senior-front-end-javascript-developer-27816262?source=feed-linkedin&mid=1595](https://www.ziprecruiter.com/jobs/here-engineering-a2e2cd79/junior-senior-front-end-javascript-developer-27816262?source=feed-linkedin&mid=1595)
+    - Sent a text to wilhelm and a linkedin message to mohammed
   - Applied to tyler tech as a form developer [https://www.tylertech.com/careers/opportunities-by-location/yarmouth-maine/forms-developer](https://www.tylertech.com/careers/opportunities-by-location/yarmouth-maine/forms-developer)
+    - Sent an email to jobs @ tylertech
   - Applied to perficent for appian developer [https://careers-perficient.icims.com/jobs/6817/appian-associate-consultant-%28jr.-level-developer%29/job?mode=submit_apply](https://careers-perficient.icims.com/jobs/6817/appian-associate-consultant-%28jr.-level-developer%29/job?mode=submit_apply)
+    - Sent an email to glenn glenn.kline@perficient.com
   - Applied to idexx for full stack intern
+    - Sent an email to adam sawyer
