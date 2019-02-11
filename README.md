@@ -520,3 +520,5 @@ remote:
     - Gotta hop in when I have more time but going to a birthday now
   - Also learned about [https://templated.co/](https://templated.co/)
 
+## 2/10/19 Sunday 8:00pm home 
+  - Cleaned up my onetab
