@@ -522,3 +522,10 @@ remote:
 
 ## 2/10/19 Sunday 8:00pm home 
   - Cleaned up my onetab
+
+## 2/11/19 Monday 7:30am home
+  - Applied to double m resources research sas analyst
+  - Applied to here engineering junior front end engineer [https://www.ziprecruiter.com/jobs/here-engineering-a2e2cd79/junior-senior-front-end-javascript-developer-27816262?source=feed-linkedin&mid=1595](https://www.ziprecruiter.com/jobs/here-engineering-a2e2cd79/junior-senior-front-end-javascript-developer-27816262?source=feed-linkedin&mid=1595)
+  - Applied to tyler tech as a form developer [https://www.tylertech.com/careers/opportunities-by-location/yarmouth-maine/forms-developer](https://www.tylertech.com/careers/opportunities-by-location/yarmouth-maine/forms-developer)
+  - Applied to perficent for appian developer [https://careers-perficient.icims.com/jobs/6817/appian-associate-consultant-%28jr.-level-developer%29/job?mode=submit_apply](https://careers-perficient.icims.com/jobs/6817/appian-associate-consultant-%28jr.-level-developer%29/job?mode=submit_apply)
+  - Applied to idexx for full stack intern
