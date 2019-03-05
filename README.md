@@ -635,3 +635,21 @@ Technical
       - I'm going to first do the create-react-app https://medium.com/@YatinBadal/rendering-and-serving-a-create-react-app-from-an-express-server-running-within-a-lambda-function-832576a5167e
       - Then node & express using the video guide here https://www.youtube.com/watch?v=71cd5XerKss&t=131s because the freecodecamp guide was using something called Claudia and I want to reduce this to the smallest amount of packages. 
   - Here we go with the CRA serverless.
+
+
+## Tuesday 3/5/19 4:30 quill
+  - Applying for jobs today using my new HTML email template
+    - Had my 1 click application for some energy company in portland viewed today so sending them an email first. 
+      - Sent an email to careers@constantenergy.com
+    - Applied to BPM tech consultant at perfcient
+      - Sent an email to DeeDEE
+    - Applied to datadog but am not going to send an email
+    - Applied to wiser solutions full stack engineer for serverless
+    - Applied to alignable front end engineer
+      - Sent them an email
+    - Applied to ez cater associate software dev
+      - Sent an email to emily
+    - Applied to wellist
+      - Sent an email to Sam
+    - Applied to Jolt Tech
+      - Sent an email
