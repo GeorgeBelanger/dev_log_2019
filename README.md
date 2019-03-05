@@ -510,7 +510,7 @@ remote:
   - Looked at producthunt for a while and found [https://sheety.co/?ref=producthunt](https://sheety.co/?ref=producthunt) Which I can use for my customers CMS
 
 ## 2/7/19 Thursday 4:20pm Quill
-  - Doing a coding test for Maine here group
+  - Doing a coding test for group market share*
   - Did it
 
 ## 2/9/19 Saturday 11:20pm home
@@ -534,3 +534,104 @@ remote:
     - Sent an email to glenn glenn.kline@perficient.com
   - Applied to idexx for full stack intern
     - Sent an email to adam sawyer
+2/11/19 5:30pm home
+  - Going to apply to places in Austin until 7 then research for the interview tomorrow. Also small commits & prs, Readme Driven Design, and deepwork.
+  - Applied for react developer at Austin Fraser
+    - Sent an email to david burkham
+  - Applied to silvercar and left a coverletter
+  - Applied to omega solutions
+  - Applied to be a developer analyst with allied consultants and left a cover letter
+    - Sent an email to hr
+  - Applied to react developer on robert half
+
+  ## 2/11/19 Monday
+  - Notes:
+  - Spark runs on scala or java, hadooop & s3
+  - The company aggregates sales data from 22 leading insurance companies to produce a market leading analysis product.
+    - What data sources are you using to get the info from the 22 companies? I know it was said it's proprietery
+  - Stack: 
+  Angular vs react, 
+  Python vs ruby, 
+  Spark & elastic mapreduce vs AWS S3 & EC2, 
+  Dashboards vs Google Charts,
+  SQL, 
+  HTML, 
+  ARGV, 
+  - How can I make you more money??
+  
+  
+
+
+Essential:
+  - What is the scope of what users pay for?
+    - "a web-based data mining system that has the ability to allow for in-depth queries of submitted, anonymized data"
+    - "In under 3 minutes, you can identify opportunities for expansion or which brokers control this business segment in a given market area"
+    - "measure your Group Dental sales performance for a specific industry, state or metro area"
+    - "Do you know the plan design features that are selling for a given market segment"
+    - Are users also using tableau?
+    - What niche gave you the most sales? Location based or feature based?
+    - What is your main method of acquiring customers? Some examples of niches you discovered
+    - Who is the main competitor in this space and what percentage of the market do they have? 
+    - How has the product changed over time? Since 2001?
+  - Does this role contribute to higher-level decisions? 
+  - Correct a fool: My sister fired the cleaner because "she shouldn't have to tell her to clean the top of the window sill"
+  - 15 minutes before I'm asking for help with my case.
+  - Whats the progression for me look like? Start front-end and get into backend or other way? 
+
+
+
+Business
+  - Any upcoming deadlines?
+  - “What is your runway?” 
+  - What is your AWS Budget?
+  - The insurance analytics market is expected to grow from USD 6.63 Billion in 2018 to USD 11.96 Billion by 2023, at a Compound Annual Growth Rate (CAGR) of 12.5% during the forecast period. - What growth are you projecting? Just using linear regression?
+  - What assets do you have? What assets did the company come with? Patented data mining system
+  - "Our patented software prevents any company from drilling into the database to a point where they could isolate the market position of any other specific contributing company. Reports and analytics never list data by individual company."
+  - Whats the vision for this company this year and 5 years from now?
+  - "Retego Data is now poised to be able to expand into markets outside of insurance using their same technical insight but without the connection to their insurance-focused application"
+  - Do you also do user case studies / feedback? 
+  - "Simple annual fee - no per user fees" Have you used price elasticity to back this decision up? User training included? 
+  - "What is our trend in market share for groups with 50-100 lives"
+
+
+Personal
+  - What are your backgrounds?
+  - “Did you take vacations this year?”
+  - “What kind of people don't work out here?”
+  - Who do you guys follow on social media for development? Siraj or Eli? 
+
+# # of sold cases and % of sold cases against elimination period, ss integration, benefit duration, 
+
+
+Technical
+  - Scrum or kanban?
+  - “Do team members have structured 1-on-1s?”  
+  - Have you guys looked at kaggle? 
+  - Have you guys heard of XGBoost?
+  - Have you heard of AWS ML/AI Marketplace? Using Amazons product recommendation algo for your apps?
+  - Do you go to conferences?
+  - three.js or webgl on the homepage? 
+  - Is there any sort of afterwork training/learning etc? I plan to continue working 2 hours a day after work on my own projects but will use the technologies we use here
+  - Can I see the schema for a life insurance broker? 
+  - "Reports are easy to export and “presentation ready” what file formats/channels? 
+  - Can I see how it looks on mobile? 
+
+  My interest in different parts of the stack:
+    - Angular Material: 8
+    - Creating/designing Dashboards: 7
+    - Plugging data into dashboards/d3ish library: 8
+    - Hosting & AWS Devops/lambda: 8
+    - Machine Learning models: 8
+    - Creating ARGV Apis: 8
+    - Creating lambda functions: 8
+  
+  How do I make you more money?
+    - Addressing the wants of users
+    - Have you considered getting into any of the following product categories: [https://medium.com/activewizards-machine-learning-company/top-10-data-science-use-cases-in-insurance-8cade8a13ee1](https://medium.com/activewizards-machine-learning-company/top-10-data-science-use-cases-in-insurance-8cade8a13ee1)
+
+## Wednesday 2/13/19 4:30pm quill
+  - Today going to work on getting my projects hosted on lambda. The deadline is 22nd for my aws free teir I think but I can host on netlify if this doesn't happen before then. 
+    - I still hadn't decided on which guide to use first, because I need to host a CRA app and also a node + express app.
+      - I'm going to first do the create-react-app https://medium.com/@YatinBadal/rendering-and-serving-a-create-react-app-from-an-express-server-running-within-a-lambda-function-832576a5167e
+      - Then node & express using the video guide here https://www.youtube.com/watch?v=71cd5XerKss&t=131s because the freecodecamp guide was using something called Claudia and I want to reduce this to the smallest amount of packages. 
+  - Here we go with the CRA serverless.
