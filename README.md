@@ -653,3 +653,27 @@ Technical
       - Sent an email to Sam
     - Applied to Jolt Tech
       - Sent an email
+
+## Saturday 3/9/19 9:00 am Nicks
+  - One thing NEED done today:
+    - Timesheet
+      - Going to wait for shunham to wake up so we can do it in tandem. 
+  - Few things to work on in the next few days, in order of importance:
+    - Of these, EZ Caters is probably the most appealing because it has strict scope and time limits.
+    - Do EZ Cater's 60 min coding assignment
+      - Make github repo and notes and then start
+    - Study for GraVoc's interview tuesday at 3
+      - Really look in depth into their portfolio and come up with questions/suggestions. Not too heavily technical.
+      - Look at people's profile on linkedin and portfolios/projects and make notes/questions.
+    - Study for Constant energies interview wednesday at 9. 
+      - Look up people who work there on linkedin and come up with comments/questions
+      - Survey the landscape of loan handlers and take screenshots of good/bad design
+      - Look up serverless best practices / what it would cost for a consultant to come in and critique design. 
+    - Study for censinet's phone screen monday at 9.
+      - Study the company and product.
+    - Go to the end of my branches/big commits in my github repos and take a screenshot/video gif of the result of that branch and put it into the readme for a visual timeline of development. 
+  
+  - Some thoughts on lambda
+    - I need to work on getting the static assets loaded in seperately because even if I'm able to import all the .js files into my handler directly AND am able to use window || global, I get error with global.navigator and so on. 
+    ? Do I need a different handler for each route?
+  
