@@ -671,9 +671,17 @@ Technical
       - Look up serverless best practices / what it would cost for a consultant to come in and critique design. 
     - Study for censinet's phone screen monday at 9.
       - Study the company and product.
-    - Go to the end of my branches/big commits in my github repos and take a screenshot/video gif of the result of that branch and put it into the readme for a visual timeline of development. 
-  
+  - Go to the end of my branches/big commits in my github repos and take a screenshot/video gif of the result of that branch and put it into the readme for a visual timeline of development. 
   - Some thoughts on lambda
     - I need to work on getting the static assets loaded in seperately because even if I'm able to import all the .js files into my handler directly AND am able to use window || global, I get error with global.navigator and so on. 
     ? Do I need a different handler for each route?
   
+## 3/10/2019 Sunday 11:15am home
+  - Going to do ezCater's test at home and then go to quill to do my other tasks. 
+  - Completed ezCater's 1 hour home test, and am not going to quill because there is a storm outside.
+  - Going to stay home and try my best to focus on tasks. First is GraVoc.
+  - Study for GraVoc's interview tuesday at 3
+      - Really look in depth into their portfolio and come up with questions/suggestions. Not too heavily technical.
+        - The questions will be the deliverables, but in terms of talking points I need to write down my thoughts on the portfolio. 
+        - Going to look at the questions I had for groupmarket share and adapt those into the repo first. 
+      - Look at people's profile on linkedin and portfolios/projects and make notes/questions.
