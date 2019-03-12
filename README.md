@@ -685,3 +685,145 @@ Technical
         - The questions will be the deliverables, but in terms of talking points I need to write down my thoughts on the portfolio. 
         - Going to look at the questions I had for groupmarket share and adapt those into the repo first. 
       - Look at people's profile on linkedin and portfolios/projects and make notes/questions.
+
+## 3/11/2019 Monday
+  - Look at censinet and get notes
+    - Peter Pavlovich on NFJS 30 second vids 
+      - Vue, Alexa & IOT which coinsides with the medical devices now coming online for Censinet, NGRX, PubNub, Meteor, Sails, Angular, Routing,
+    >Before joining Censinet, Peter was the Chief Software Architect at Embue Technologies, an Apartment Building Intelligence platform provider based in Boston, MA. Before joining Embue, Peter was the Principal Architect for EnerNOC Labs, a dedicated R&D group within EnerNOC, a Global provider of Demand Response and Energy Inteligence software located in Boston, MA. Prior to EnerNOC, Peter was a Principal Cloud Engineer with Kronos Incorporated, a global provider of on-premise and cloud-based workforce management solutions. Before Kronos, Peter held the position of Technical Director with Brokat Technologies, a global provider of mobile payment solutions. Prior to that, Peter was a Sr. Architect with GemStone Systems, providing distributed, enterprise-ready data grid and object persistence solutions and J2EE application server technologies.
+    - Tweeted about hiring full stack engineers on Saturday
+    - Data security is the main problem
+    - App is broken down into 4 tabs:
+      - Dashboard
+      - Projects
+      - Vendors
+      - Network
+    > Only Censinet was developed exclusively by and for healthcare providers, which makes Censinet the first and only Collaborative Cloud Platform for Vendor Risk Management.
+    > Negotiate better terms with vendors based on risk transparency.
+      - How is risked measured? ML?
+    > Report and analyze risk across all third-party vendors in real-time
+    - ? What is the main bandwidth I'd be looking to absorb? 
+    - The twitter seems to have the stats that the problem view is missing, notably 50%
+    - PubNub to me looks like graphql subscriptions, but had iot integration, and a lot of info and seems very built out.
+      - Why not just use postgres listen/notify? 
+    - Is email HIPAA compliant? 
+    - Are people using chat apps outside of work? Do you plan on having chat in censinet?
+    - What are the main focuses right now
+    >EU And US-Only Data Storage
+    >And with this guide, he hope to set you up for success to ensure you’re not in the 50% “always vulnerable” group
+    - Hipaa requires token based access control and end-to-end encryption
+    - Cisco and duolabs report on chrome extension risk scores
+    - 28.7m in hipaa fines
+    - 13% of companies have risk management in place according to fico
+
+    - qusetionaires update
+    - capture risks 
+    - remediation steps
+    - more reports 
+    - actioncable 
+
+
+Questions for GraVoc Interview 3/12/19 at 3:00pm
+
+Essential:
+  - Can I see some tasks/assignments that are being worked on this week?
+  - Whats the progression for me look like? 
+  - Does this role contribute to higher-level decisions? 
+  - What niche gave you the most sales? Location based or business segment based?
+  - Any upcoming deadlines?
+
+Personal:
+  - Can you tell me about the work-life balance? Did you use your vacation days last year? 
+  - “What kind of people don't work out here?”
+  - Who do you guys follow on social media for development? Siraj or Eli? 
+  - Favorite books / hobbies? 
+
+Technical:
+  - Do team members have structured 1-on-1s or code reviews?
+  - Have you heard of AWS ML/AI Marketplace? Using Amazons product recommendation algo for your apps?
+  - Do you go to conferences?
+  - Is there any sort of afterwork training/learning etc?
+
+Maxims?: 
+  - Correct a fool and he'll hate you, correct a wise man and he'll love you
+    - By this I mean that I want everyone to be upfront with me about issues in code or otherwise instead of saying "we shouldn't have to tell him to do that"
+  - 10 minutes of being stuck before I'm making a case of what I've tried and 5 minutes after that I'm asking for help.
+  - I plan to continue working 2 hours a day before work to do my part and get familiar with the codebase initially. After I feel very comfortable in the codebase I will continue to freelance 2 hours a day on my own projects so I can explore and experiment with new technologies, potentially to be used in production at Gravoc
+
+Very interested in all parts of the stack:
+  - Direct Experience in:
+    - React 
+    - Mongo DB JSON DB
+    - Express REST api
+    - JSON web tokens
+    - Webpack
+    - Git
+    - Creating lambda functions and handlers
+
+  - Limited exposure to:
+    - Redux
+    - Jenkins
+    - React native
+    - Wordpress
+    - Angular 1
+
+
+Gravoc Portfolio notes:
+  - No cloud web apps for public viewing unforunately. 
+  - eTech solutions
+    - Like the loop video banner for etechnology services and note that it's more efficient than a gif
+    - The learning portal looks good from the video on the about page
+    - The contact form could use some work
+    - Risk utility management seems to be the CRM they were talking about
+  - eRisk Solutions:
+    - The home page consistently took too long to load. 
+    - Form looks good. 
+    - About page as well.
+    - Low res tractor trailer image on about page. 
+    - I like that the parts of the html are divided by comments but the body class names are just insane. 
+    - Could it be the inline css that is resonsible for the poor performance? 
+    - You can submit a claim without any verification that it's reall 
+    - The more information contact modal has a huge bottom margin. 
+  - MRGCM
+    - The commercial and retail pictures on the home page should have href="mrgcm.com/portfolio"
+    - The growing and shrinking navbar and logo seems to be re used commonly 
+    - I don't like the hover effect for the portfolio images but the modal itself is nice 
+  - Connection
+    - Like the arrow
+    - The buttons on the header don't seem big enough
+    - Lots of sites use the scroll down fade in from the top or bottom
+    - Bullhorn APIs
+    - Location and job title filtering
+    - Card layout change
+    - Nice back button from job listing transition
+    - Nice application modal
+  - Media lighting 
+    - Nice hover effect on main page- wish that would get reused instead of the plus one on led install
+    - Nice initial transition and that the low res image is used for the page and the high res image is used in modal
+    - The visibility on the for could be changed in about us
+    - Really needs a video somewhere on the site that shows the companies work
+    - The gear-ish intersection between yellow and gray is nice
+  - Northeast
+    - Home page header takes long time to load 
+    - 1 parallax image on scroll, should be darker to contrast with the light blue 
+    - Why left and right scroll bar on each of the dropdowns? 
+  - Lenco
+    - Hover effect is very nice 
+    - Lenco videos are awesome 
+    - Probably my favorite site
+    - Same 2 bar nav on Elizabeth grady
+  - HeyChick
+    - Has instagram integration
+    - When I click tops all tops load and it takes a very long time (16 seconds on slow connection) 
+    - Should have fewer listings initally with pagination from more pages 
+  - Office questions:
+    - Does the big room with yellow chairs in it get used for presentations/lunch and learns often? 
+    - Very nice looking office overall 
+
+  - Portfolio ubiquitous notes:
+    - Uses flexbox
+    - Uses et_pb (Enter Text Page Builder) to edit Divi themes and content 
+    - Click Trackers, pixels, analytics, custom js
+    - Seems that most sites have wordpress integration so clients can add their news articles 
+
+
