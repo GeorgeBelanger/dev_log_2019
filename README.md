@@ -827,3 +827,13 @@ Gravoc Portfolio notes:
     - Seems that most sites have wordpress integration so clients can add their news articles 
 
 
+## 3/12/19 Tuesday 9:00pm home
+  - Going to finish the questions for constant energy tonight
+    - The forms for Toptal and the last one on this list were very appealing to me, but their websites are questionable.  https://blog.hubspot.com/marketing/form-examples
+    - "As you might have noticed by now, the only thing that pops on that landing page's design is the call to action button."
+    - Autofilling forms for users by using ClearBits aggregated data for them... interesting but creepy. Saving a users login info should be standard though https://clearbit.com/forms?ref=producthunt
+    - More info on forms from a trusted source, Neil Patel https://www.crazyegg.com/blog/form-design/
+    - Affirm API https://docs.affirm.com/Integrate_Affirm/Direct_API
+      - "The most approvals. Period. Our machine learning-based underwriting approves 34% more applicants than our competitors, on average."
+      - "We settle within one business day and take on risk, from costly chargebacks to fraud."
+    - Mygreenloans sends customers to reliable short term loans https://www.reliableshorttermloans.com/loan-request/
