@@ -829,11 +829,62 @@ Gravoc Portfolio notes:
 
 ## 3/12/19 Tuesday 9:00pm home
   - Going to finish the questions for constant energy tonight
-    - The forms for Toptal and the last one on this list were very appealing to me, but their websites are questionable.  https://blog.hubspot.com/marketing/form-examples
-    - "As you might have noticed by now, the only thing that pops on that landing page's design is the call to action button."
-    - Autofilling forms for users by using ClearBits aggregated data for them... interesting but creepy. Saving a users login info should be standard though https://clearbit.com/forms?ref=producthunt
-    - More info on forms from a trusted source, Neil Patel https://www.crazyegg.com/blog/form-design/
-    - Affirm API https://docs.affirm.com/Integrate_Affirm/Direct_API
-      - "The most approvals. Period. Our machine learning-based underwriting approves 34% more applicants than our competitors, on average."
-      - "We settle within one business day and take on risk, from costly chargebacks to fraud."
-    - Mygreenloans sends customers to reliable short term loans https://www.reliableshorttermloans.com/loan-request/
+
+
+  
+
+
+Essential:
+  - What is the scope of what users pay for?
+  - What tools are your users also using?
+  - What niche gave you the most sales? Location based or feature based?
+  - What is your main method of acquiring customers?
+  - Who is the main competitor in this space and what percentage of the market do they have? 
+ - What is the main feature users ask you for? Could you list the top 3? Are they technical or ease-of-use or portability/sharability?  
+  - How has the product changed over time?
+  - Does this role contribute to higher-level decisions? 
+  - Whats the progression for me look like?
+
+Maxims?:
+  - I know that I'm not the most experienced candidate, so my only leverage is my focus and the amount of time I am willing to put in. 
+    - I want to work 7-5 and do some freelancing on the side so I can explore/expirement with technologies that may get used in production
+  - Correct a fool and he'll hate you, correct a wise man and he'll love you
+  - 10 minutes of being stuck before I'm making a case of what I've tried and 5 minutes after that I'm asking for help.
+  - I believe in emergent leadership where employees can take the reigns on projects if they have the merit and conviction
+  - Plan on making very maintainable software
+    - Every file I make will come with a dev log that describes my thought process, decisions and errors I ran into
+
+
+
+Business
+  - Any upcoming deadlines?
+  - “What is your runway?"
+  - What is your AWS Budget?
+  - What growth are you projecting - How big is the target market and what niches do you plan on focusing on?
+  - What assets do you have? 
+  - Whats the vision for this company this year and 5 years from now?
+  - Do you have any user case studies / testimonials / feedback? 
+
+
+Personal
+  - I know you had vacation days but did you take vacations last year?
+  - “What kind of people don't work out here?”
+  - Who do you guys follow on social media for development/business? Siraj or Eli? 
+
+Technical
+  - Can I look at the scrum board and explain how I would complete some tasks
+  - Have you heard of AWS ML/AI Marketplace? Using Amazons product recommendation algo for your apps?
+  - Do you go to conferences?
+  - "Reports are easy to export and “presentation ready” what file formats/channels? 
+  - What are we using for document DB?  
+  - Any thoughts on GraphQL 
+
+Notes from Researching Constant Energy:
+  - The forms for Toptal and the last one on this list were very appealing to me, but their websites are questionable.  https://blog.hubspot.com/marketing/form-examples
+  - "As you might have noticed by now, the only thing that pops on that landing page's design is the call to action button."
+  - Autofilling forms for users by using ClearBits aggregated data for them... interesting but creepy. Saving a users login info should be standard though https://clearbit.com/forms?ref=producthunt
+  - More info on forms from a trusted source, Neil Patel https://www.crazyegg.com/blog/form-design/
+  - Affirm API https://docs.affirm.com/Integrate_Affirm/Direct_API
+    - "The most approvals. Period. Our machine learning-based underwriting approves 34% more applicants than our competitors, on average."
+    - "We settle within one business day and take on risk, from costly chargebacks to fraud."
+  - Mygreenloans sends customers to reliable short term loans https://www.reliableshorttermloans.com/loan-request/
