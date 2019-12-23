@@ -888,3 +888,9 @@ Notes from Researching Constant Energy:
     - "The most approvals. Period. Our machine learning-based underwriting approves 34% more applicants than our competitors, on average."
     - "We settle within one business day and take on risk, from costly chargebacks to fraud."
   - Mygreenloans sends customers to reliable short term loans https://www.reliableshorttermloans.com/loan-request/
+
+12/22/19 8:20pm Home  
+Looking at my list of good portfolio sites, and I think this is the best one. With a nice WebGL landing page its perfect.
+  - http://www.slamdesignz.com/
+- This is hilarious and what I will use for the about me section... perhaps with images of myself as well... [http://getcoleman.com/](http://getcoleman.com/)
+- I like the 3d floating screenshots used here, would be nice on the detail section of each article. [http://2014.lorenzobocchi.com/en/design/bertani/](http://2014.lorenzobocchi.com/en/design/bertani/)
